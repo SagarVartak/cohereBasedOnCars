@@ -39,6 +39,11 @@ dataset = load_dataset_from_csv(csv_file_path)
 # Initialize Flask app
 app = Flask(__name__)
 
+# Home Page
+@app.route("/")
+def index():
+        return "Hello, World!"
+
 # Chat endpoint
 @app.route('/chat', methods=['POST'])
 def chat():
