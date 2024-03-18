@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "api/chatGptCohere.py",
+      "src": "./chatGptCohere.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/chatGptCohere.py"
+      "dest": "./chatGptCohere.py"
     }
   ]
 }
