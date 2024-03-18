@@ -1,5 +1,2 @@
 cohere==4.56
-datasets==2.18.0
 Flask==3.0.2
-Flask-Cors==4.0.0
-openai==1.14.1
